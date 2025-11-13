@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **sammyharrison58@gmail.com**
 
-- ⚡ Fun fact **am a cupcut video editor**
+- ⚡ Fun fact **am a cupcut video editor & Photoshop editor**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
