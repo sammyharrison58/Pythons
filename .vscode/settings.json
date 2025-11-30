@@ -1,0 +1,8 @@
+{
+    "python.terminal.launchArgs": [
+        "-W",
+        "ignore::DeprecationWarning",
+        "-W",
+        "ignore::UserWarning"
+    ]
+}
