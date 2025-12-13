@@ -9,11 +9,14 @@ from PyQt5.QtWidgets import (
     QLineEdit,
 )
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
 
 
 class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
+        self.setGeometry(700, 300, 500, 500)
+        self.setWindowIcon(QIcon("logo.jpg"))
         self.city_label = QLabel("Enter a City name:", self)
         self.city_input = QLineEdit(self)
         self.get_weather_button = QPushButton("Get weather", self)
@@ -23,7 +26,7 @@ class WeatherApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("Weather App")
+        self.setWindowTitle("Harris_Apex Weather App")
         vbox = QVBoxLayout()
         vbox.addWidget(self.city_label)
         vbox.addWidget(self.city_input)
