@@ -1,6 +1,5 @@
-"""Draw a heart with turtle graphics."""
-
 import turtle
+
 
 CURVE_DEGREES = 200
 STEP = 1
