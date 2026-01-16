@@ -1,8 +1,6 @@
 {
-    "python.terminal.launchArgs": [
-        "-W",
-        "ignore::DeprecationWarning",
-        "-W",
-        "ignore::UserWarning"
-    ]
+    "terminal.integrated.env.windows": {
+        "TCL_LIBRARY": "C:\\Users\\HomePC\\AppData\\Local\\Programs\\Python\\Python313\\tcl\\tcl8.6",
+        "TK_LIBRARY": "C:\\Users\\HomePC\\AppData\\Local\\Programs\\Python\\Python313\\tcl\\tk8.6"
+    }
 }
