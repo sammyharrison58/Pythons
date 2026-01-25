@@ -1,4 +1,5 @@
 import turtle
+from colorsys import *
 
 
 CURVE_DEGREES = 200
